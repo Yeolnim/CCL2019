@@ -55,7 +55,7 @@ print(type(y_train))
 
 import gensim
 
-model_file = 'D:\project\竞赛\CCL\\task1\Tencent_AILab_ChineseEmbedding.vec' # input your file path
+model_file = 'Tencent_AILab_ChineseEmbedding.vec' # input your file path
 print("加载Word2Vec模型...")
 wv_model = gensim.models.KeyedVectors.load_word2vec_format(model_file, binary=True)
 
